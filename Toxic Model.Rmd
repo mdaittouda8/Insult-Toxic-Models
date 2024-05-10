@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+#### Toxic Classifier: ---------------------------------------------------------
+
+### 1- Data Set Loading and Packages :
+```{r}
+# Load required libraries
+library(ggplot2)
+library(tm)
+library(SnowballC)
+library(caret)
+library(tokenizers)
+
+#load the data set
+dataset <- read.csv("MachineLearningChallengeData.csv")
+```
+
